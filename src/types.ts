@@ -32,7 +32,7 @@ export interface PostDB {
     updated_at: string
 }
 
-export interface PosttWithCreatorDB extends PostDB {
+export interface PostWithCreatorDB extends PostDB {
     creator_name: string
 }
 
